@@ -1,0 +1,13 @@
+{
+  "name": "postman-newman-jenkins",
+  "version": "1.0.0",
+  "description": "project for running api tests for salesforce lightening",
+  "main": "index.js",
+  "scripts": {
+    "api-tests-salesforce-testsandbox": "newman run JenkinsTest.postman_test_run.json"
+  },
+  "author": "srilatha",
+    "dependencies": {
+    "newman": "^3.8.1"
+  }
+}
